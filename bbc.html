@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Mireia BBC</title>
+
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ <style type="text/css">
+
+ body {
+ 	margin: 0;
+ 	font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+ }
+
+ #topbar {
+
+ 	background-color: #ffffff; 
+ 	width: 100%;
+ 	height: 40px;
+ 	color: black;
+ }
+
+ .fixedwidth {
+ 	width: 1050px;
+ 	margin: 0 auto;
+ }
+
+ #logodiv {
+ 	padding-top: 5px;
+ 	float: left;
+ 	border-right: 1px solid #cccccc;
+ 	padding: 6px 80px 4px 20px;
+ 	padding-right: 10px; 
+ }
+
+ #signindiv {
+ 	font-weight: bold;
+ 	padding: 6px 10px 6px 10px;
+ 	font-size: 0.7em;
+ 	float: left;
+ 	border-right: 1px solid #cccccc;
+ }
+
+ #signindiv img {
+ 	position: relative;
+ 	top: 1px;
+ }
+
+ #topmenudiv {
+ 	float: left;
+ }
+
+ #topmenudiv ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ #topmenudiv li {
+ 	list-style: none;
+ 	font-weight: bold;
+ 	font-size: 0.7em;
+ 	border-right: 1px solid #cccccc;
+ 	height: 100%;
+ 	padding: 10px 20px 14px 20px;
+ 	float: left;
+ }
+
+ #searchdiv {
+ 	float: left;
+ 	padding: 6px 0 0 12px;
+ }
+
+ #searchdiv input {
+ 	height: 16px;
+ 	border: none;
+ 	padding: 3px 0 3px 10px; 
+ 	background-color: #e4e4e4;
+ 	font-weight: bold;
+ 	background-image: url("images/magnify.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right center;
+
+ }
+
+ .break {
+ 	clear:both;
+ }
+
+ #newsbar {
+
+ 	background-color: #bb1919; 
+ 	width: 100%;
+ 	height: 60px;
+ 	color: black;
+ }
+
+ #newsbar p {
+ 	margin: 0;
+ 	padding: 0;
+ 	padding-top: 2px;
+ 	padding-left: 20px;
+ 	float: left;
+ }
+
+ #newsheader {
+ 	font-size: 2.5em;
+ 	color: white;
+ }
+
+ #localnews {
+ 	float: right;
+ 	margin-top: 15px;
+ }
+
+ #localnews input {
+ 	height: 10px;
+ 	border: black;
+ 	color: white;
+ 	padding: 20px 0 2px 8px; 
+ 	background-color: #bb1919;
+ 	font-weight: bold;
+ 	font-size: 1em;
+ 	background-image: url("images/localnews.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right center;
+ }
+
+ #topicmenu {
+ 	color: #fff;
+ }
+
+ #topicmenu ul {
+ 	background-color: #a91717;
+ 	padding: 30px 0 0 30px;
+ 	margin: 0;
+ 	height: 20px;
+ }
+
+ #topicmenu li {
+ 	list-style: none;
+ 	font-size: 0.8em;
+ 	border-right: 1px solid #bb4545;
+ 	padding: 0px 10px 0px 10px;
+ 	float: left; 
+ }
+
+ .selected {
+ 	border-bottom: 4px solid #fff;
+ }
+
+ #content {
+ 	width: 100%;
+ 	font-size: 0.8em;
+ }
+
+#content ul {
+	padding: 10px 0 0 10px;
+ 	margin: 0;
+ 	height: 5px;
+}
+
+#content li {
+ 	list-style: none;
+ 	font-size: 0.9em;
+ 	border-right: 1px solid #e4e4e4;
+ 	padding: 0px 10px 0px 10px;
+ 	float: left; 
+ }
+
+ h1 {
+ 	color: black;
+ 	font-size: 2.2em;
+ }
+
+.headlineimage {
+	float: left;
+}
+
+.newsitem {
+	position: relative;
+	left: 10px;
+	top: -15px;
+	float: left;
+	width: 280px;
+	color: #5a5a5a;
+	font-size: 1.1em;
+
+}
+
+ </style>
+
+ </head>
+
+ <body>
+
+ <div>
+ 	
+ <div id="container">
+
+ 	<div id="topbar">
+
+ 		<div class="fixedwidth">
+
+ 		<div id="logodiv">
+ 			<img src="images/BBClogo.png">
+ 		</div>
+
+ 		<div id="signindiv">
+ 			<img src="images/signin.png">
+ 		</div>
+
+ 		<div id="topmenudiv">
+
+ 			<ul>
+ 				
+ 				<li>News</li>
+ 				<li>Sport</li>
+ 				<li>Weather</li>
+ 				<li>iPlayer</li>
+ 				<li>TV</li>
+ 				<li>Radio</li>
+ 				<li>More</li>
+
+
+
+ 			</ul>
+
+ 		</div>
+
+ 		<div id="searchdiv">
+ 			
+ 			<input type="text" placeholder="Search"/>
+
+ 		</div>
+
+
+ 	</div>
+
+ 	<div class="break"></div>
+
+ 	<div id="newsbar">
+
+ 		<div class="fixedwidth">
+
+ 			<p id="newsheader">NEWS</p>
+
+ 			<div id="localnews">
+ 				<input type="text" placeholder="Find local news"/>
+ 			</div>
+
+ 			<div class="break"></div>
+
+ 			<div id="topicmenu">
+
+ 				<ul>
+ 					<li class="selected">Home</li>
+					<li>UK</li>
+					<li>World</li>
+					<li>Business</li>
+					<li>Politics</li>
+					<li>Tech</li>
+					<li>Science</li>
+					<li>Health</li>
+					<li>Education</li>
+					<li>Entertainment & Arts</li>
+					<li style="border-right: none">More</li>
+ 				</ul>
+
+ 			</div>
+
+ 		</div>
+
+
+ 	</div>
+
+ 	<div class="break"></div>
+
+ 	<div id="content">
+
+ 		<ul>
+ 			<li>England</li>
+ 			<li>N. Ireland</li>
+ 			<li>Scotland</li>
+ 			<li>Alba</li>
+			<li>Wales</li>
+ 			<li style="border-right: none">Cymru</li>
+		</ul>
+
+ 		<div class="article">
+
+ 			<h1>Petal is the cutest doggy in the world.</h1>
+
+ 			<img class="headlineimage" src="images/petal.jpg" alt="Petal" height="300" width="400" />
+
+ 			<div class="newsitem">
+
+ 			<p>We already know who is the cutest dog in the word. She is a proper Londoner called Petal.</p>
+
+ 			</div>
+ 			
+
+ 		</div>
+ 		
+
+ 	</div>
+
+
+ </div>
+ 
+
+
+ </body>
+</html>
